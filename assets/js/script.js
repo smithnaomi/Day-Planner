@@ -141,7 +141,7 @@ function elevenAM() {
   }
 }
 
-function twelevePM() {
+function twelvePM() {
   var input_textarea4 = document.querySelector("#comment12pm");
   var output_div4 = document.querySelector("#comment12pm");
   var save_button4 = document.querySelector("#button12pm");
