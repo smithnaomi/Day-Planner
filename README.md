@@ -8,7 +8,7 @@ _Naomi Smith_
 
 # Usage
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![Live Demo](assets/images/WorkDayScheduler.gif)
 
 Insert accurate information to describe developer's application
 This project is using the license BSD 3-clause. See https://opensource.org/licenses/BSD-3-Clause for more information.
