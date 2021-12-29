@@ -176,19 +176,19 @@ function onePM() {
 }
 
 function twoPM() {
-  var input_textarea = document.querySelector("#comment9am");
-  var output_div = document.querySelector("#comment9am");
-  var save_button = document.querySelector("#button9am");
+  var input_textarea6 = document.querySelector("#comment2pm");
+  var output_div6 = document.querySelector("#comment2pm");
+  var save_button6 = document.querySelector("#button2pm");
 
-  save_button.addEventListener("click", updateOutput);
+  save_button6.addEventListener("click", updateOutput6);
 
-  output_div.textContent = localStorage.getItem("content");
-  input_textarea.value = localStorage.getItem("content");
+  output_div6.textContent = localStorage.getItem("content6");
+  input_textarea6.value = localStorage.getItem("content6");
 
-  function updateOutput() {
-    localStorage.setItem("content", input_textarea.value);
+  function updateOutput6() {
+    localStorage.setItem("content6", input_textarea6.value);
 
-    output_div.textContent = input_textarea.value;
+    output_div6.textContent = input_textarea6.value;
   }
 }
 
