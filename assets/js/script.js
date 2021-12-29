@@ -15,17 +15,6 @@ window.onload = function () {
 setInterval(function () {
   now = moment();
   $("#currentDay").text(now.format("MMMM Do YYYY, h:mm:ss a"));
-  $("ul").each(function () {
-    if (now.format("H") == $(this).data("time")) {
-      $(this).children(".description").addClass("present");
-    }
-    if (now.format("H") > $(this).data("time")) {
-      $(this).children(".description").addClass("past");
-    }
-    if (now.format("H") < $(this).data("time")) {
-      $(this).children(".description").addClass("future");
-    }
-  });
 }, 500);
 
 //HOURS//
