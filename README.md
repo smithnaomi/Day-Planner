@@ -4,11 +4,12 @@ _Naomi Smith_
 
 ## Description
 
- <p> With a busy schedule, the Work Day Scheduler will help anyone become organized. When the application is opened the current date and time is displayed. Each time block is color coded. The red time block is the present time, green is future time and grey is past time. Any block can be selected and an event can be added. Once it is saved you can refresh the page and the event will still be displayed. The event can be changed; once saved the page can be refreshed and the event will be displayed.<p>
+ <p> With a busy schedule, the Work Day Scheduler will help anyone become organized. When the application is opened the current date and time is displayed. Each time block is color coded. The red time block is the present, green is future and grey is the past. Any block can be selected and an event can be added. Once it is saved you can refresh the page and the event will still be displayed. The event can be changed and once saved the page can be refreshed and the new event will be displayed. Future Development, I would like to add the ability to clear all events and add more hours.<p>
 
 # Usage
 
 ![Live Demo](assets/images/WorkDayScheduler.gif)
+[Day Planner Page](https://smithnaomi.github.io/Day-Planner/)
 
 ## Questions
 
