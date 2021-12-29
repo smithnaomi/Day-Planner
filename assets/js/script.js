@@ -124,7 +124,7 @@ function nineAM() {
     }
 }
 
-    function nineAM() {
+    function tenAM() {
         var input_textarea = document.querySelector("#comment9am");
         var output_div = document.querySelector("#comment9am");
         var save_button = document.querySelector("#button9am");
@@ -141,7 +141,7 @@ function nineAM() {
         }
     }
 
-        function nineAM() {
+        function elevenAM() {
             var input_textarea = document.querySelector("#comment9am");
             var output_div = document.querySelector("#comment9am");
             var save_button = document.querySelector("#button9am");
@@ -158,7 +158,7 @@ function nineAM() {
             }
           }
 
-          function nineAM() {
+          function twelevePM() {
             var input_textarea = document.querySelector("#comment9am");
             var output_div = document.querySelector("#comment9am");
             var save_button = document.querySelector("#button9am");
@@ -176,7 +176,7 @@ function nineAM() {
           }
   
           
-          function nineAM() {
+          function onePM() {
             var input_textarea = document.querySelector("#comment9am");
             var output_div = document.querySelector("#comment9am");
             var save_button = document.querySelector("#button9am");
@@ -194,25 +194,7 @@ function nineAM() {
           }
           
           
-          function nineAM() {
-            var input_textarea = document.querySelector("#comment9am");
-            var output_div = document.querySelector("#comment9am");
-            var save_button = document.querySelector("#button9am");
-          
-            save_button.addEventListener("click", updateOutput);
-          
-            output_div.textContent = localStorage.getItem("content");
-            input_textarea.value = localStorage.getItem("content");
-          
-            function updateOutput() {
-              localStorage.setItem("content", input_textarea.value);
-          
-              output_div.textContent = input_textarea.value;
-            }
-          }
-  
-          
-          function nineAM() {
+          function twoPM() {
             var input_textarea = document.querySelector("#comment9am");
             var output_div = document.querySelector("#comment9am");
             var save_button = document.querySelector("#button9am");
@@ -230,7 +212,7 @@ function nineAM() {
           }
   
           
-          function nineAM() {
+          function threePM() {
             var input_textarea = document.querySelector("#comment9am");
             var output_div = document.querySelector("#comment9am");
             var save_button = document.querySelector("#button9am");
@@ -247,7 +229,25 @@ function nineAM() {
             }
           }
   
-          function nineAM() {
+          
+          function fourPM() {
+            var input_textarea = document.querySelector("#comment9am");
+            var output_div = document.querySelector("#comment9am");
+            var save_button = document.querySelector("#button9am");
+          
+            save_button.addEventListener("click", updateOutput);
+          
+            output_div.textContent = localStorage.getItem("content");
+            input_textarea.value = localStorage.getItem("content");
+          
+            function updateOutput() {
+              localStorage.setItem("content", input_textarea.value);
+          
+              output_div.textContent = input_textarea.value;
+            }
+          }
+  
+          function fivePM() {
             var input_textarea = document.querySelector("#comment9am");
             var output_div = document.querySelector("#comment9am");
             var save_button = document.querySelector("#button9am");
