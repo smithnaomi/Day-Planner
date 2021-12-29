@@ -9,6 +9,9 @@ window.onload = function () {
   threePM();
   fourPM();
   fivePM();
+  sixPM();
+  sevenPM();
+
 };
 
 //CURRENT DATE AND TIME//
@@ -77,6 +80,20 @@ function colorCode() {
     $("#comment4pm").addClass("present");
   } else if (now < 16) {
     $("#comment4pm").addClass("future");
+  }
+  if (now > 17) {
+    $("#comment5pm").addClass("past");
+  } else if (now >= 17 && now < 18) {
+    $("#comment5pm").addClass("present");
+  } else if (now < 17) {
+    $("#comment5pm").addClass("future");
+  }
+  if (now > 17) {
+    $("#comment5pm").addClass("past");
+  } else if (now >= 17 && now < 18) {
+    $("#comment5pm").addClass("present");
+  } else if (now < 17) {
+    $("#comment5pm").addClass("future");
   }
   if (now > 17) {
     $("#comment5pm").addClass("past");
