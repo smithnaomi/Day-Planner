@@ -12,12 +12,6 @@ window.onload = function () {
 };
 
 //CURRENT DATE AND TIME//
-// var currentDay = moment().format("MMMM Do YYYY, h:mm:ss a");
-// $("#currentDay").append(currentDay);
-
-// var currentTime = moment().format("LT");
-// $("#currentTime").append(currentTime);
-
 setInterval(function () {
   now = moment();
   $("#currentDay").text(now.format("MMMM Do YYYY, h:mm:ss a"));
