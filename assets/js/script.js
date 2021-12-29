@@ -12,11 +12,27 @@ window.onload = function () {
 };
 
 //CURRENT DATE AND TIME//
-var currentDay = moment().format("dddd LL");
-$("#currentDay").append(currentDay);
+// var currentDay = moment().format("MMMM Do YYYY, h:mm:ss a");
+// $("#currentDay").append(currentDay);
 
-var currentTime = moment().format("LT");
-$("#currentTime").append(currentTime);
+// var currentTime = moment().format("LT");
+// $("#currentTime").append(currentTime);
+
+setInterval(function () {
+  now = moment();
+  $("#currentDay").text(now.format("MMMM Do YYYY, h:mm:ss a"));
+  $("ul").each(function () {
+    if (now.format("H") == $(this).data("time")) {
+      $(this).children(".description").addClass("present");
+    }
+    if (now.format("H") > $(this).data("time")) {
+      $(this).children(".description").addClass("past");
+    }
+    if (now.format("H") < $(this).data("time")) {
+      $(this).children(".description").addClass("future");
+    }
+  });
+}, 500);
 
 //HOURS//
 var now = new Date().getHours();
