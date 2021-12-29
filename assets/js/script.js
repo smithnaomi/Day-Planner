@@ -86,3 +86,21 @@ function colorCode() {
     $("#comment5pm").addClass("future");
   }
 }
+
+// Function per hour: Save, Text, Refresh
+function nineAM() {
+  var input_textarea = document.querySelector("#comment9am");
+  var output_div = document.querySelector("#comment9am");
+  var save_button = document.querySelector("#button9am");
+
+  save_button.addEventListener("click", updateOutput);
+
+  output_div.textContent = localStorage.getItem("content");
+  input_textarea.value = localStorage.getItem("content");
+
+  function updateOutput() {
+    localStorage.setItem("content", input_textarea.value);
+
+    output_div.textContent = input_textarea.value;
+  }
+}
