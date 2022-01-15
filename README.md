@@ -9,7 +9,7 @@ _Naomi Smith_
 # Usage
 
 ![Live Demo](assets/images/WorkDayScheduler.gif)
-[Day Planner Page](https://smithnaomi.github.io/Day-Planner/)
+[Day Planner Page](https://smithnaomi.github.io/Day-Scheduler/)
 
 ## Questions
 
